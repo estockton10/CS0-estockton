@@ -1,7 +1,9 @@
 # CS0-estockton
-CS0 Beggining programming Python 
+CS0 Beginning programming Python 
 Spring 2020
 
 Emily Stockton
 
-## Assignment 1
+## Assignments
+
+# Assignment 1
