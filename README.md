@@ -4,6 +4,6 @@ Spring 2020
 
 Emily Stockton
 
-## Assignments
+# Assignments
 
-# Assignment 1
+## Assignment 1
