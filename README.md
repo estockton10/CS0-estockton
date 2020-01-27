@@ -9,4 +9,4 @@ Emily Stockton
 ## Assignment 1
 
 # Labs
-## Lab 1
+## Lab 1 
