@@ -7,3 +7,6 @@ Emily Stockton
 # Assignments
 
 ## Assignment 1
+
+# Labs
+## Lab 1
