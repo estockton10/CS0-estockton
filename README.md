@@ -7,7 +7,7 @@ Emily Stockton
 # Assignments
 
 ## Assignment 0
--  
+- Completed 
 
 ## Assignment 1
 -in progress
@@ -15,3 +15,4 @@ Emily Stockton
 
 # Labs
 ## Lab 1 
+-in progress
