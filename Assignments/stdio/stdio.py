@@ -1,4 +1,4 @@
-#this program displays the stages of hangman
+# this program displays the stages of hangman
 
 print('hey there, what is your name?')
 name=input()
