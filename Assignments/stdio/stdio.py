@@ -1,6 +1,6 @@
 # this program displays the stages of hangman
 
-print('hey there, what is your name?')
+print('Hey there, what is your name?')
 name=input()
 
 print('Hey,'+name) 
