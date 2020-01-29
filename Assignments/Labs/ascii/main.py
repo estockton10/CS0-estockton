@@ -1,7 +1,7 @@
 """    
     ASCII Art
-     Updated By: FIXME (5 points)
-     Date: FIXME (5 points)
+     Updated By: Emily Stockton (5 points)
+     Date: 28 Jan 2020 (5 points)
     CSCI 110
      This program prints ascii graphics on to the common output       /console/monitor.
 """
