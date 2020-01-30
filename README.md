@@ -15,8 +15,8 @@ Emily Stockton
 
 # Labs
 ## Lab 1 ASCII Art
--prints ASCII graphics on the console
--fixed all the FIXMEs
--ran and tested program many times
--grade: 100/100
+- prints ASCII graphics on the console
+- fixed all the FIXMEs
+- ran and tested program many times
+- grade: 100/100
 
