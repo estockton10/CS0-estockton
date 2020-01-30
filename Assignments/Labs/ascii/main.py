@@ -10,4 +10,6 @@ print(  ' |\_/|   ***************************  (\_/)')
 print(    "/ @ @ \  *    ASCII lab            *  (=.=)")  
 print('(> 0 <)  *    By:Emily Stockton    * (")_(") ') 
 print(' >>x<<   *    CSCI 110             *')   
-print (' / O \   ***************************')    
+print (' / O \   ***************************') 
+
+# FIXME: finish the rest of the art (80 points) #fixed#
