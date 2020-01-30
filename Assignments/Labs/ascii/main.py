@@ -7,7 +7,7 @@
 """
 
 print(  ' |\_/|   ***************************  (\_/)')
-print(    "/ @ @ \  *    ASCII lab            *  (=.=)")  
+print(    "/ @ @ \  *    ASCII lab            * (='.'=)")  
 print('(> 0 <)  *    By:Emily Stockton    * (")_(") ') 
 print(' >>x<<   *    CSCI 110             *')   
 print (' / O \   ***************************') 
