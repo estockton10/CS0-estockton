@@ -20,3 +20,6 @@ Emily Stockton
 - ran and tested program many times
 - grade: 100/100
 
+## Lab 2 Circle
+-in progress
+
