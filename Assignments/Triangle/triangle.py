@@ -5,7 +5,7 @@
 #Algorithim Steps
 # 1. Prompt user for side a, side b, and side c
 # 2. Store side a,b,c as variables
-# 3. Calculate perimeter with a+c+c=perimeter
+# 3. Calculate perimeter with a+b+c=perimeter
 # 4. Calculate area with formulae s=(a+b+c)/s &
 #     a=sqrt(s(s-a)(s-b)(s-c))
 # 5. Determine if valid triangle- if area less than or equal to 0, it is not a valid triangle

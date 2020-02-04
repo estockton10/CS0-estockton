@@ -36,7 +36,7 @@ circumfrence= 2*math.pi*radius
 # Display the calculated values with proper descriptions
 print("Radius of the circle = ",  radius)
 
-# FIXME4: display area - already fixed for you! #fixed#
+# FIXME4: display area - already fixed for you! #FIXED#
 print('Area of the circle = ', area)
 
 # FIXME5: display circumference #FIXED#
