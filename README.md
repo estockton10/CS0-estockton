@@ -9,14 +9,18 @@ Emily Stockton
 ## Assignment 0
 - Completed 
 
-## Assignment 1 Std IO
+## Assignment 1- Std IO
 - Program prints several stages of hangman gallows
 - met all requirements
 - ran and tested the program many times
 - I deserve 100% grade
 
-## Assignment 2
--in progress
+## Assignment 2-Triangle
+- program finds area and perimeter of a triangle given three sides
+- all the requirements are completed
+- program tested at least 49 times
+- grade: 110/100
+
 
 
 # Labs
