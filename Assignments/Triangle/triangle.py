@@ -39,3 +39,4 @@ if (s*(s-a)*(s-b)*(s-c))<=0:
 else: 
   Area=math.sqrt(s*(s-a)*(s-b)*(s-c))
   print('The area is',Area)
+  
