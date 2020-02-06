@@ -36,4 +36,6 @@ Emily Stockton
 - Ran and verified program results many times
 - Grade: 100%
 
+## Lab 3 Functions
+-in progress
 
