@@ -31,5 +31,9 @@ Emily Stockton
 - grade: 100/100
 
 ## Lab 2 Circle
--in progress
+- program finds and prints area and circumference of a circle with the given radius
+- Fixed all the FIXMEs
+- Ran and verified program results many times
+- Grade: 100%
+
 
