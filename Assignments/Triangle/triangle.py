@@ -2,7 +2,7 @@
 #  Date- 31 Jan 2020
 # This program calculates and displays the perimeter and area of a triangle given 3 sides
 
-#Algorithim Steps
+#Algorithm Steps
 # 1. Prompt user for side a, side b, and side c
 # 2. Store side a,b,c as variables
 # 3. Calculate perimeter with a+b+c=perimeter
