@@ -1,5 +1,5 @@
 ###
-# Functions lab
+# Functions lab 
 # Updated by: 
 # Date: 4 Feb 2020
 # CSCI 110
