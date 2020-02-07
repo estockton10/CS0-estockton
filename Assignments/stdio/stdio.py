@@ -2,7 +2,7 @@
  Assignment 1
  This program displays the stages of hangman
  By Emily Stockton
- 31 Jan 2020
+ Date:31 Jan 2020
 """
 
 print('Hey there, what is your name?')
