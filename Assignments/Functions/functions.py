@@ -6,24 +6,15 @@
 #Last modified- 6 Feb 2020
 ##########################
 
+"""
+Algorithm steps
+1. 
+"""
 import math
 
+def add(num1,num2):
+total=num1 +num2
+return total
 
 
-print("Please enter a number")
-input(num1)
-int(num1)
-
-
-
-print('Enter another number')
-input(num2)
-int(num2)
-
-
-
-  
-theSum=num1+num2
-
-
-theSum=print('The sum of your numbers is', theSum)
+#ask user for 
