@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 
 ###
 # Circle - Basic Math - Lab
