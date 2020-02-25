@@ -21,8 +21,13 @@ Emily Stockton
 - program tested at least 49 times
 - grade: 110/100
 
-## Assignment 3-
+## Assignment 3-Functions
 -in progress
+- program performs arithmetic operations
+- program finds the greater of 2 numbers
+- fixed all the FIXMEs
+- ran and tested program multiple times
+- grade: 110/100
 
 
 
@@ -41,4 +46,8 @@ Emily Stockton
 
 ## Lab 3 Functions
 -in progress
+- Fixed all the FIXMEs
+- Grade: 100%
+- Ran and verified program results many times
+
 

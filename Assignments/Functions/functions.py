@@ -2,9 +2,9 @@
 #File name: functions.py 
 #This file takes two numbers and finds the sum,differecene,product,quotient,remainder 
 # and finds the largest of the two numbers
-#CSCI 110
+#CSCI 110 
 #Emily Stockton
-#Last modified- 6 Feb 2020
+#Last modified- 25 Feb 2020
 ##########################
 
 """Write program and programmer information at the top of the program as comments (5 points)
