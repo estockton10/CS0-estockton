@@ -98,6 +98,6 @@ convertTime(3600)
 # FIXME9 - Call converTime function passing 3661 as seconds #fixed#
 convertTime(3661)
 
-#FIXME10-call test functions #fixed$
+#FIXME10-call test functions #fixed#
 testFunctions()
 
