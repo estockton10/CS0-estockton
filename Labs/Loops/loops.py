@@ -8,6 +8,7 @@ Program prints geometric shapes of given height with * using loops
 import os
 import sys
 
+
 height=int(input('enter number???'))
 
 
