@@ -1,27 +1,11 @@
 #########################
 #File name: functions.py 
-#This file takes two numbers and finds the sum,differecene,product,quotient,remainder 
+#This file defines functions that takes two numbers and finds the sum,differecene,product,quotient,remainder 
 # and finds the largest of the two numbers
 #CSCI 110 
 #Emily Stockton
 #Last modified- 25 Feb 2020
 ##########################
-
-"""Write program and programmer information at the top of the program as comments (5 points)
-Define a function that takes two numbers, adds two numbers and returns the sum (5 points)
-Define a function that takes two numbers, multiplies the two numbers and returns the product (5 points)
-Define a function that takes two numbers; divides the first number by the second and returns the quotient (5 points)
-Define a function that takes two numbers, subtracts the second from the first and returns the difference (5 points)
-Define a function that takes two numbers, finds and returns the remainder of the first number divided by the second (5 points)
-Define a function that takes two numbers, finds the first to the power of the second number and returns the value (5 points)
-Define a function that takes a number and returns the square-root of the number (5 points)
-Prompt the user to enter two numbers (5 points)
-Call all the functions passing those two entered numbers and print the calculated results with proper descriptions (15 points)
-Write 2 tests cases using assert statements to automatically test each function. (5*7 = 35 points)
-Update README.md file with the status of the project and self grade. (5 points)
-Bonus 10 points - Write a function that finds and returns the larger of two given numbers. Call function to test it with the same two numbers.
-"""
-
 
 
 import math
@@ -48,7 +32,7 @@ def subtract(num1,num2):
 
 
 
-#define remainder
+#define remainder function
 def remainder(num1,num2):
     return int(num1)%int(num2)
 
@@ -60,7 +44,7 @@ def power(num1,num2):
 
 
 
-#define sqrt
+#define sqrt function
 def sqrt(num2):
     return (num2**0.5)
 

@@ -25,7 +25,18 @@ def printTriangle(height):
 
 
 def printFlippedTriangle(height):
-    """
+
+    """lmao its c++ code
+    
+    for(int i = rows; i >= 1; --i)
+    {
+        for(int j = 1; j <= i; ++j)
+        {
+            print (".*")
+        }
+        print (''o
+    }
+    
     # Implement the function that takes height as an argument
     # and prints a triangle with * of given height.
     # Triangle of height 5, e.g., should look like the following.
@@ -37,7 +48,7 @@ def printFlippedTriangle(height):
     """
 
     # FIXME3 ...
-    pass
+    ##pass
 
 
 # FIXME4
@@ -51,11 +62,11 @@ def printFlippedTriangle(height):
 *  *  *  *  *   
 *  *  *  *  *   
 """
-
+##output square pattern
 def square():
  height =0 #int(input("Please Enter any Side of a Square  : "))
 i = 0
-print("Square Star Pattern") 
+ 
 
 while(i < height):
     j = 0
@@ -66,4 +77,3 @@ while(i < height):
     print('')
 
 printTriangle()
-square()

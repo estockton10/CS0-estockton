@@ -22,7 +22,6 @@ Emily Stockton
 - grade: 110/100
 
 ## Assignment 3-Functions
--in progress
 - program performs arithmetic operations
 - program finds the greater of 2 numbers
 - fixed all the FIXMEs
@@ -45,7 +44,6 @@ Emily Stockton
 - Grade: 100%
 
 ## Lab 3 Functions
--in progress
 - Fixed all the FIXMEs
 - Grade: 100%
 - Ran and verified program results many times
