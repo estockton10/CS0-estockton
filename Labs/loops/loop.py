@@ -1,8 +1,8 @@
 """
 Lab - Playing with Loops
-Updated By: FIXME1
+Updated By: Emily Stockton
 CSCI 110
-Date: FIXME2
+Date: 4 March 2020
 Program prints geometric shapes of given height with * using loops
 """
 import os
@@ -69,11 +69,12 @@ i = 0
  
 
 while(i < height):
-    j = 0
-    while(j < height):      
-        j = j + 1
-        print('*', end = '  ')
-    i = i + 1
-    print('')
+        j = 0
+        while(j < height):      
+            j = j + 1
+            print('*', end = '  ')
+        i = i + 1
+        print('')
 
 printTriangle()
+

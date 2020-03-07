@@ -49,7 +49,10 @@ Emily Stockton
 - Ran and verified program results many times
 
 
-## Lab 4 Loops
+## Lab 4 Conditionals
+-in progress
+
+## Lab 5 Loops
 -in progress
 
 
