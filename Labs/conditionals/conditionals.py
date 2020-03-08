@@ -32,26 +32,24 @@ import sys
 import os
 
 
-
-
 def isEven(num):
     even = False
     if num %2==0:
      return True
     else:
         return False
-    # FIXME2
+    # FIXME2 #fixed#
     # determine whether the num is even or odd
     # return True for even; False otherwise
     return even
 
 
 def isPositive(num):
-    # FIXME3 – use your algorithm in step 4 to determine if num is 0 or not
+    # FIXME3 – use your algorithm in step 4 to determine if num is 0 or not #fixed#
     if num>0:
         return True
     else:
-        pass
+        False
 
 
 def isZero(num):
@@ -66,11 +64,8 @@ def isZero(num):
 # Define a function that takes in a string name argument
 # function greets the name by printing, e.g.: Hello, John! Welcome onboard...
 def greetName(name):
-    """ 
-    function that takes one argument name and greets the name
-    """
+    
     print("Hello, {}".format(name),"welcome!")
-
 
 def clearScreen():
     """
@@ -91,7 +86,7 @@ def main():
     if ans != 'y':
         sys.exit()  # exit/end the program
 
-    # FIXME6:
+    # FIXME6: #fixed#
     # Prompt user to enter their name and update the name variable
     name = input('Enter name')
 
@@ -99,10 +94,13 @@ def main():
     while True:
         # clear the screen for subsequent use
         clearScreen()
-        # FIXME7: call function defined in FIXME5 to greet the user
+        # FIXME7: call function defined in FIXME5 to greet the user #fixed#
         greetName(name)
         print("Enter a whole number, {}:".format(name))
         anum = input()
+    
+
+        #unsure of how this works with negative numbers, input of negative whole numbers returns that input is not a number
         if not anum.isdecimal():
             print('Not a number, enter to continue...')
             input()
@@ -119,7 +117,7 @@ def main():
             else:
                 print(anum, "is an odd number!")
 
-            # FIXME8
+            # FIXME8 #unsure of how this works with negative numbers, input of negative whole numbers returns that input is not a number
             # call isPositive function passing anum and print the result with proper description
             positive=isPositive(anum)
             if positive:
@@ -130,29 +128,30 @@ def main():
         answer = input(
             "Would you like to check another number? Enter y or yes; anything else to quit: ")
         if answer == 'y':
-            # FIXME9 - make the progrom continue to run if user entered yes
+            # FIXME9 - make the progrom continue to run if user entered yes #fixed#
+            continue
+        elif answer=='yes':
             continue
         else:
             print('Thanks for using the program, {}! Good bye...'.format(name))
             break
 
 
-def test():
+def testFunction():
     # test function to test other functions
-    # FIXME10
+    # FIXME10 #fixed#
     # using assert statment write at least 1 test case for
     # isEven, isPositive, isZero functions
-    assert isPositive(99) == True
+    assert isPositive(7) == True
     assert isEven(44)==True
-    assert isZero(1)==False
-
+    assert isZero(0)==True
     print('all test cases passed...')
 
-
-# FIXME10
-# call test function
-test()
 
 
 # call main function
 main()
+
+# FIXME10 #fixed#
+# call test function
+testFunction()

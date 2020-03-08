@@ -28,6 +28,9 @@ Emily Stockton
 - ran and tested program multiple times
 - grade: 110/100
 
+## Assignment 4
+- in progress
+
 
 
 # Labs
@@ -50,7 +53,9 @@ Emily Stockton
 
 
 ## Lab 4 Conditionals
--in progress
+- Fixed all but one FIXME
+- Grade 90/100
+- Will not return negative whole numbers
 
 ## Lab 5 Loops
 -in progress
