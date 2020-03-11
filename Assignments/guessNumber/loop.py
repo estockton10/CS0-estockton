@@ -16,7 +16,7 @@ def guess_number():
     print("Welcome to guess a number game!")
     name=input("What is your name?") 
     print("Hello",name)
-    print("Guess a number (between 1 and 20), you have 6 tries:") 
+    print("Guess a number (between 1 and 20), you have 6 attempts:") 
     chances = 0 
     while chances < 6: 
         
@@ -28,6 +28,8 @@ def guess_number():
             
             print("Congratulations", name)
             print("You win!!!")
+            print("You guessed the number in",chances,end=" "),
+            print("tries")
             break
             
         
@@ -43,6 +45,7 @@ def guess_number():
             
     if not chances < 6: 
         print("YOU LOSE!!! The number is", number) 
+
 
 def main():
     while True:
