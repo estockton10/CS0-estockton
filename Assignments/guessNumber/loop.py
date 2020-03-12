@@ -50,7 +50,7 @@ def guess_number():
 def main():
     #count=0
     while True:
-        #global count-- uhhhhh
+        #global count
         guess_number()
         #count+=1
 
