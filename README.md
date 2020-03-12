@@ -31,6 +31,13 @@ Emily Stockton
 ## Assignment 4
 - in progress
 
+## Assignment 5- Guess the number
+- met all requirements (90 points)
+- updated readme (10 points)
+- tested the program many times
+- Grade: 100/100
+
+
 
 
 # Labs
@@ -58,6 +65,8 @@ Emily Stockton
 - Will not return negative whole numbers
 
 ## Lab 5 Loops
--in progress
+- Fixed all FIXMES
+- Tested program many times
+- Grade: 100/100
 
 
