@@ -117,16 +117,4 @@ def main():
 
 main()
 
-    # FIXME5
-    # Call printFlippedTriangle passing proper argument
-    # Manually test the function
 
-    # FIXME6
-    # Call the function defined in FIXME4 passing proper argument
-    # Manually test the function
-
-    # FIXME9
-    # prompt user to enter y/Y to continue anything else to quit
-
-    # FIXME10
-    # Use conditional statements to break the loop or continue in the loop

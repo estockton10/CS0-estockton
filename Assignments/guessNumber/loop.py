@@ -44,12 +44,15 @@ def guess_number():
         chances += 1
             
     if not chances < 6: 
-        print("YOU LOSE!!! The number is", number) 
+        print("Sorry, you loose. The number is", number) 
 
 
 def main():
+    #count=0
     while True:
+        #global count-- uhhhhh
         guess_number()
+        #count+=1
 
         answer = input("Would you like to play again? [Y|N]")
         if answer == 'y':
@@ -58,7 +61,8 @@ def main():
             continue
         else:
             break
-
+    print
+#print (count)
 
 main()
 
