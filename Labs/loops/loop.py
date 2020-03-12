@@ -20,7 +20,7 @@ def printTriangle(height):
     #height=int(input('enter number???'))
     i = 0
     while i <= height:
-        print('*  '*i)
+        print('* '*i)
         i += 1
     print('')  # print an empty line
 
