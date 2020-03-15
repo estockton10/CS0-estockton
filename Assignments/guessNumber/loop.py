@@ -8,7 +8,7 @@ By- Emily Stockton
   
    
 import random 
-number = random.randint(1, 20) 
+number = random.randint(1,20) 
 ##CHANGE TO 1,20!!!!
 
   
