@@ -2,6 +2,7 @@
 Assignment-Guess the number game
 This file lets user guess a number between 1 and 20 in 6 attempts
 CSCI 110
+Date: 13 March 2020
 By- Emily Stockton
 """
  
