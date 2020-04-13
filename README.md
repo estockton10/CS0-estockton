@@ -37,6 +37,7 @@ Emily Stockton
 - tested the program many times
 - Grade: 100/100
 
+
 ## Assignment 6- Avion String
 - Solution accepted
 - Screenshot included
@@ -74,5 +75,8 @@ Emily Stockton
 - Fixed all FIXMES
 - Tested program many times
 - Grade: 100/100
+
+## Lab 6 String
+    -in progress
 
 
