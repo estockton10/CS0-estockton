@@ -41,7 +41,8 @@ Emily Stockton
 - Solution accepted
 - Screenshot included
 - README updated
-- Total points- 80/100
+- Total points- 80
+
 
 
 
