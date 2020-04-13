@@ -1,6 +1,6 @@
 """
 Lab - String
-By: FIXME0
+By: Emily Stockton
 
 CSCI 110
 Date: 30 March 2020
@@ -58,11 +58,16 @@ def hasUpperCase(phrase):
 
 def hasDigit(phrase):
     # FIXME1: return True if phrase has at least 1 digit, false otherwise
-    pass
+    for ch in phrase:
+        if ch.isdigit():
+            return True
+    return False
 
 
 def hasSymbol(phrase):
     # FIXME2: return True if phrase has at least one of these symbols: ~!@#$%
+    for ch in phrase:
+        
     # return False otherwise
     pass
 
@@ -85,13 +90,23 @@ def main():
         else:
             print('{} does not have an upper case character.'.format(phrase))
 
-        # FIXME3
+        # FIXME3 #FIXED#
+        if hasLowerCase(phrase):
+            print('{} has a lowercase character'.format(phrase))
+        else:
+            print('{} does not have a lowercase character'.format(phrase))
+    
         # print if the phrase has a lower case character by calling the proper function
 
-        # FIXME4
+        # FIXME4 #FIXED#
+        if hasDigit(phrase):
+            print('{} has a digit.'.format(phrase))
+        else:
+            print('{} does not have a digit'.format(phrase))
         # print if the phrase has a digit by calling the proper function
 
         # FIXME5
+        if hasSymbol
         # print if the phrase has a symbol by calling the proper function
 
         ans = input('Want to continue? [y/n]: ')
