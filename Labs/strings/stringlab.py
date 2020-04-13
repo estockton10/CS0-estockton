@@ -67,9 +67,8 @@ def hasDigit(phrase):
 def hasSymbol(phrase):
     # FIXME2: return True if phrase has at least one of these symbols: ~!@#$%
     for ch in phrase:
-        
     # return False otherwise
-    pass
+   #pass
 
 
 def main():
