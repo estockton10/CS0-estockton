@@ -20,6 +20,9 @@ def blimp():
     if not found:
             print('HE GOT AWAY!')
 
+
+# can't figure out test cases
+# get error: takes 0 positional arguments, but one was given 
 def test_cases():
     assert blimp()=='HE GOT AWAY!'
     print('all test cases passed')
