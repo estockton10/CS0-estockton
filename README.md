@@ -81,4 +81,8 @@ Emily Stockton
 - Tested program
 - Grade 90/100
 
+## Lab 7 List
+-in progress
+
+
 
