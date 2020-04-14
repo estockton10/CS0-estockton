@@ -77,6 +77,8 @@ Emily Stockton
 - Grade: 100/100
 
 ## Lab 6 String
-    -in progress
+- Fixed all but one FIXME
+- Tested program
+- Grade 90/100
 
 
