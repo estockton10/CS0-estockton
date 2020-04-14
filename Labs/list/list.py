@@ -30,7 +30,8 @@ def sortListInAscendingOrder(intList):
 
 def sortListInDescendingOrder(intList):
     # FIXME3 (20 points)
-    pass
+    intList.sort(reverse=True)
+    #pass
 
 
 def printList(intList):
@@ -51,8 +52,11 @@ def main():
     printList(integers)
     # FIXME4 (10 points)
     # Call sortListInDescendingOrder function
+    print('Numbers in descending order:')
     # FIXME5 (10 points)
     # Print the sorted list in descending order
+    printList(integers, reverse=True)
+
     # FIXME6 (10 points)
     # Print the largest number
     # FIXME7 (10 points)

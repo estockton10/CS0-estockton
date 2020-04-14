@@ -24,7 +24,7 @@ def blimp():
 # can't figure out test cases
 # get error: takes 0 positional arguments, but one was given 
 def test_cases():
-    assert blimp()=='HE GOT AWAY!'
+    assert blimp()==False
     print('all test cases passed')
 
 blimp()
