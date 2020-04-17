@@ -44,6 +44,9 @@ Emily Stockton
 - README updated
 - Total points- 80
 
+## Assignment 7- Falling Apart List
+-in progress
+
 
 
 
