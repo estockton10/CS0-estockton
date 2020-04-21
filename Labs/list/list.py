@@ -39,6 +39,13 @@ def printList(intList):
         print(val, end=' ')
     print()
 
+def maxNum(intList):
+    max(intList)  
+    return max(intList)
+
+def firstIndex(intList):
+    min = intList.index (min(intList))
+    print ("The minimum is at position"), min
 
 def main():
     integers = []  # empty list to store integers
@@ -50,25 +57,30 @@ def main():
     sortListInAscendingOrder(integers)
     print("Numbers in ascending order: ")
     printList(integers)
-    # FIXME4 (10 points)
+    # FIXME4 (10 points) #fixed#
     # Call sortListInDescendingOrder function
     print('Numbers in descending order:')
+    sortListInDescendingOrder(integers)
     # FIXME5 (10 points)
     # Print the sorted list in descending order
-    printList(integers, reverse=True)
+    
 
     # FIXME6 (10 points)
     # Print the largest number
+    print('Largest number:',(max(integers)))
+    
     # FIXME7 (10 points)
     # Print the smallest number
+    print ('Smallest number:',(min(integers)))
     # FIXME8 (10 points)
     # Find and print the index of the smallest number
+    firstIndex(integers)
     # FIXME9 (10 points)
     # Print the index of the largest number
 
 
-# FIXME10 (20 points)
+# FIXME10 (20 points)#fixed#
 # Call main function if this file is run as the main module
-print('call main() function to see partial outputs of the program...')
+#print('call main() function to see partial outputs of the program...')
 
 main()
