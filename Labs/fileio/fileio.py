@@ -19,6 +19,11 @@ totalInts = 10
 
 def readData():
     intList = []
+    file_name = input('Enter file name:')
+    file_handle = open(file_name)  
+    for line in file_handle:
+        file_handle.close()
+
     # FIXME1 (20 points):
     # Prompt user to input file name
     # open the file; read each number one line at a time;
