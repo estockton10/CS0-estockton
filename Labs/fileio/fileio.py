@@ -1,6 +1,6 @@
 """
 File I/O Lab
-By: FIXME0
+By: Emily Stockton
 
 CSCI 110
 Date: 22 April 2020
@@ -20,11 +20,11 @@ totalInts = 10
 def readData():
     intList = []
     file_name = input('Enter file name:')
-    file_handle = open(file_name)  
-    for line in file_handle:
-        file_handle.close()
+    with open(file_name,'r') as fin:
+        for x in fin:
+                intList.append(x)
 
-    # FIXME1 (20 points):
+    # FIXME1 (20 points): #fixed#
     # Prompt user to input file name
     # open the file; read each number one line at a time;
     # and store it into intList list
@@ -33,24 +33,26 @@ def readData():
     return intList
 
 
-def sortListInAscendingOrder(lstInts):
-    # FIXME2
+def sortListInAscendingOrder(intList):
+    # FIXME2 #fixed#
     # sort lstInts list in ascending order
-    pass
+    intList.sort()
 
 
-def sortListInDescendingOrder(lstInts):
-    # FIXME3
+def sortListInDescendingOrder(intList):
+    # FIXME3 #fixed#
     # sort lstInts in descending order
-    pass
+    intList.sort(reverse=True)
 
 
-def printList(printFile, lstInts):
-    for i in lstInts:
-        # FIXME4
+def printList(printFile, intList):
+    for i in intList:
+        # FIXME4 #fixed#
         # write each value one line at a time to file
         # handled by printFile object.
-        pass
+        printFile.write(str(i))
+        printFile.write('\n')
+        print
     printFile.write('\n')
 
 
@@ -66,17 +68,25 @@ def main():
     printFile.write("Numbers sorted in ascending order:\n")
     printList(printFile, integers)
 
-    # FIXME5
+    # FIXME5 #fixed#
     # Call sortListInDescendingOrder function
+    sortListInDescendingOrder(integers)
 
-    # FIXME6
+    # FIXME6 #fixed#
     # Write the sorted list in descending order to the output file
+    printFile.write('numbers in descending order: \n')
+    printList(printFile,integers)
 
-    # FIXME7
+
+    # FIXME7 #fixed#
     # Print the largest number to the output file
+    printFile.write('largest number:')
+    printFile.write(str(max(integers)))
 
-    # FIXME8
+    # FIXME8 #fixed#
     # Print the smallest number to the output file
+    printFile.write('smallest number:')
+    printFile.write(str(min(integers)))
 
     printFile.close()
     print('Done executing the program! Check the output file for results.')

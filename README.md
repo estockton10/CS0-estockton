@@ -51,7 +51,7 @@ Emily Stockton
 - Total points - 80
 
 ## Final Project
--in progress
+-in progress 
 
 
 
@@ -91,7 +91,14 @@ Emily Stockton
 - Grade 90/100
 
 ## Lab 7 List
--in progress
+
+
+## Lab 8 File IO
+- Fixed all FIXMEs
+- output file does not return proper results
+- total points : 
+
+
 
 
 
