@@ -210,3 +210,21 @@ def game():
     end_of_game(True)
 
 game()
+
+"""
+def main():
+    while True:
+    
+      game()
+      
+      answer = input("Would you like to play again? [Y|N]")
+      if answer == 'y':
+          continue
+      elif answer=='Y':
+          continue
+      else:
+          break
+    
+
+main()
+"""
