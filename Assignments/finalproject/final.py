@@ -88,7 +88,7 @@ def gameplay():
             print('You win! You guessed the word correctly! The word was' +''.join(word))
         else:
             print('You lose. You did not guess the word correctly. The word was' +''.join(word))
-            #sys.exit()
+            
 
     def guess_word():
         print('WORD: ' + ' '.join(obfuscated))
