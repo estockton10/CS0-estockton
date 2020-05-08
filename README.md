@@ -29,7 +29,7 @@ Emily Stockton
 - grade: 110/100
 
 ## Assignment 4
-- in progress
+- was unable to complete
 
 ## Assignment 5- Guess the number
 - met all requirements (90 points)
@@ -51,7 +51,9 @@ Emily Stockton
 - Total points - 80
 
 ## Final Project
--in progress 
+- all requirements met (95 points)
+- README is uptodate (5 points)
+- total points = 100 
 
 
 
@@ -91,12 +93,13 @@ Emily Stockton
 - Grade 90/100
 
 ## Lab 7 List
+- was unable to complete
 
 
 ## Lab 8 File IO
 - Fixed all FIXMEs
 - output file does not return proper results
-- total points : 
+- total points : 90
 
 
 
